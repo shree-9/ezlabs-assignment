@@ -1,9 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import brushLine from "/brush-line.png";
-// import brandingPhoto from "/branding-photo.png";
-// import brandIcon from "/icons/brand.png";
-// import paletteIcon from "/icons/palette.png";
 
 export default function ServiceBranding() {
   const navigate = useNavigate();
@@ -41,8 +37,6 @@ export default function ServiceBranding() {
         <button onClick={() => navigate("/art")} className="service-btn">Explore Now →</button>
       </div>
 
-      {/* <img src={brandIcon} alt="" className="absolute top-16 right-20 w-10 opacity-80" /> */}
-      {/* <img src={paletteIcon} alt="" className="absolute bottom-12 left-16 w-10 opacity-80" /> */}
     </section>
   );
 }

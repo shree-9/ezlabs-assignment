@@ -1,9 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import brushLine from "/brush-line.png";
-// import filmPhoto from "/film-photo.png";
-// import cameraIcon from "/icons/camera.png";
-// import tripodIcon from "/icons/tripod.png";
+
 
 export default function ServiceFilm() {
   const navigate = useNavigate();
@@ -17,7 +14,7 @@ export default function ServiceFilm() {
 
       <div className="flex items-center justify-center gap-12 mt-8 flex-wrap">
         <div className="shadow-xl bg-white p-2 rounded-md">
-          <img src={filmPhoto} alt="Film Production" className="w-64 rounded-sm" />
+          {/* <img src={filmPhoto} alt="Film Production" className="w-64 rounded-sm" /> */}
           <p className="text-center mt-2 text-sm">Film Production</p>
         </div>
 
@@ -41,8 +38,6 @@ export default function ServiceFilm() {
         <button onClick={() => navigate("/branding")} className="service-btn">Explore Now →</button>
       </div>
 
-      {/* <img src={cameraIcon} alt="" className="absolute top-20 right-16 w-10 opacity-80" />/ */}
-      {/* <img src={tripodIcon} alt="" className="absolute bottom-16 right-10 w-12 opacity-80" /> */}
     </section>
   );
 }

@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 export default function ServicesIntro() {
   const navigate = useNavigate();
 
-  // ✅ Correct setup for images stored in the /public folder
   const cards = [
     { title: "Film Production", img: "/film-photo.png", path: "/film" },
     { title: "Branding", img: "/branding-photo.png", path: "/branding" },

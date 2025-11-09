@@ -35,7 +35,7 @@ export default function ServicesIntro() {
         backgroundBlendMode: "overlay",
       }}
     >
-      {/* Decorative border */}
+      
       <div className="absolute bottom-0 left-0 w-full h-[80px] opacity-30">
         <img
           src="/mandala-border.png"
@@ -44,12 +44,12 @@ export default function ServicesIntro() {
         />
       </div>
 
-      {/* Heading */}
+      
       <h2 className="text-3xl md:text-4xl text-[var(--text-strong)] text-center font-[Halant] mb-16">
         The storyboard reveals the breadth of our craft.
       </h2>
 
-      {/* Service Images */}
+      
       <div className="flex flex-wrap md:flex-nowrap justify-center gap-8 md:gap-12 px-4">
         {services.map((service, index) => (
           <img
