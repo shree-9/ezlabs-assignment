@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import artCuration from "/art-curation.png";
-import frameIcon from "/icons/frame.png";
-import paletteIcon from "/icons/palette.png";
 
 export default function ServiceArt() {
   const navigate = useNavigate();
